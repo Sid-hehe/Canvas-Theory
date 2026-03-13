@@ -39,7 +39,7 @@ const steps = [
 ];
 
 const testimonials = [
-    { name: 'Sandeep Kumar', role: 'Founder, SK Logistics', quote: 'Very supportive team. They answered all my questions and helped me understand how to manage my website.' },
+    { name: 'Sandeep Kumar', role: 'Founder, SK Logistics', quote: 'Great team. They answered all my questions and helped me understand how to manage my website.' },
     { name: 'Arjun Mehta', role: 'Owner, Bombay Coffee House', quote: 'The design they created for my website looks modern and professional. I’m happy with the final result.' },
     { name: 'Ashif Khan', role: 'Owner, Component Fitness', quote: 'Very reliable company for website development. The process was smooth from start to finish' },
 ];
@@ -384,3 +384,4 @@ const Hero = () => {
 };
 
 export default Hero;
+

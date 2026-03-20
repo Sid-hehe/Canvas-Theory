@@ -13,6 +13,7 @@ import Refund from './components/Refund';
 import Cookies from './components/Cookies';
 import AboutUs from './components/AboutUs';
 import ScrollToTop from './components/ScrollToTop';
+import DynamicTitle from './components/DynamicTitle';
 import { Routes, Route } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import SmoothScroll from './components/SmoothScroll';
@@ -21,6 +22,7 @@ function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
+      <DynamicTitle />
       <SmoothScroll>
         {/* Dynamic creative background layers */}
         <CreativeBackground />
